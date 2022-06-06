@@ -66,7 +66,11 @@ const MenuLinks = ({ isOpen, pageType }) => {
     >
       <Flex mr={10} alignItems="center" justifyContent="center">
         {/* TODO: add doc's link here */}
-        <Link href="https://github.com/vmtree/chainlink-vmt#readme" _hover={{ textDecoration: "none" }} isExternal>
+        <Link
+          href="https://github.com/vmtree/hackathon"
+          _hover={{ textDecoration: "none" }}
+          isExternal
+        >
           <Button
             variant="solid"
             size="md"
@@ -75,12 +79,10 @@ const MenuLinks = ({ isOpen, pageType }) => {
             bg="#fff"
             _hover={{ background: "#2c4cb6", color: "#fff" }}
           >
-            <Text fontSize='sm'>
-              DOCS
-            </Text>
+            <Text fontSize="sm">DOCS</Text>
           </Button>
         </Link>
-        <SecondButton pageType={pageType}/>
+        <SecondButton pageType={pageType} />
       </Flex>
     </Box>
   );
@@ -98,10 +100,7 @@ const SecondButton = ({ pageType }) => {
           bg="#fff"
           _hover={{ background: "#2c4cb6", color: "#fff" }}
         >
-          <Text fontSize='sm'>
-              LAUNCH APP
-          </Text>
-          
+          <Text fontSize="sm">LAUNCH APP</Text>
         </Button>
       </Link>
     );
