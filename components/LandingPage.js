@@ -285,7 +285,7 @@ const LandingPage = (props) => {
         </Flex>
         <Flex flexDirection="column" mr="10%" alignItems="center">
           <Link
-            href="https://github.com/vmtree/chainlink-vmt#readme"
+            href="https://github.com/vmtree/hackathon"
             isExternal
             _hover={{ textDecoration: "none", boxShadow: "2xl" }}
             borderRadius="50%"
