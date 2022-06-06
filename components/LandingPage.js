@@ -17,13 +17,13 @@ import {
   AspectRatio,
   Stack,
   Tooltip,
-  Avatar
+  Avatar,
 } from "@chakra-ui/react";
 import {
   ChevronDownIcon,
   ChevronRightIcon,
   DownloadIcon,
-  ExternalLinkIcon
+  ExternalLinkIcon,
 } from "@chakra-ui/icons";
 import Card from "../components/Card";
 
@@ -302,7 +302,7 @@ const LandingPage = (props) => {
             />
           </Link>
           <Link
-            href="https://github.com/vmtree/chainlink-vmt#readme"
+            href="https://github.com/vmtree/hackathon"
             _hover={{ textDecoration: "none" }}
             mt="1em"
             isExternal
